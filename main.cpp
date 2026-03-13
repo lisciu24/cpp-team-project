@@ -14,7 +14,7 @@ int multiply(int a,int b){
 }
 
 int main() {
-  cout << "Siemaneczko" << endl;
+  cout << "Witaj w moim programie!" << endl;
   cout << "2 + 3 = " << add(2, 3) << endl;
   cout<<"2*3 = "<<multiply(2,3)<<endl;
   cout << "5 - 3 = " << subtract(5, 3) << endl;
