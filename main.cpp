@@ -1,7 +1,12 @@
-#include <iostream>
-using namespace std;
+#include <iostream> 
+using namespace std; 
+
+int subtract(int a, int b) {
+  return a - b; 
+} 
 
 int main() {
   cout << "Witaj w naszym programie!" << endl;
-  return 0;
-} 
+  cout << "5 - 3 = " << subtract(5, 3) << endl;
+  return 0; 
+}
